@@ -18,7 +18,7 @@ python preprocess_text.py
 ```
 ## Entraînement du modèle DeepSC
 Cette phase lance l’entraînement du modèle DeepSC (Deep Semantic Communication).
-Deux architectures principales ont été utilisées (voir les captures ci-dessous).
+Deux architectures principales ont été utilisées (voir les captures ci-dessous), tirées du papier de référence Deep Learning Enabled Semantic Communication Systems (Xie et al., 2021).
 
 ![Architecture de DeepSC (voir models/transceiver.py](images/deepsc_architecture.png)
 
