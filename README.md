@@ -25,6 +25,7 @@ Deux architectures principales ont été utilisées (voir les captures ci-dessou
 ![Les deux phases de l’entraînement ](images/entrainement_phases.png)
 
 L’entraînement a été réalisé avec deux types de canaux : AWGN (bruit additif gaussien) et Rayleigh (canal à fading).
+
 Les modèles entraînés sont automatiquement enregistrés dans le dossier checkpoints/.
 
 ```shell
