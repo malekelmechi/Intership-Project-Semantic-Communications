@@ -22,7 +22,7 @@ Deux architectures principales ont été utilisées (voir les captures ci-dessou
 
 ![Architecture de DeepSC (voir models/transceiver.py](images/deepsc_architecture.png)
 
-![Les deux phases de l’entraînement ](images/les 2 phases.png)
+![Les deux phases de l’entraînement ](images/entrainement_phases.png)
 
 L’entraînement a été réalisé avec deux types de canaux : AWGN (bruit additif gaussien) et Rayleigh (canal à fading).
 Les modèles entraînés sont automatiquement enregistrés dans le dossier checkpoints/.
