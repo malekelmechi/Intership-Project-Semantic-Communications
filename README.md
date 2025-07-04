@@ -1,9 +1,10 @@
-# Intership-Project-Semantic-Communications
+## Projet de stage – Communications Sémantiques avec Apprentissage Profond
+Ceci est une implémentation du système Deep Learning Enabled Semantic Communication Systems.
 
-This is the implementation of  Deep learning enabled semantic communication systems.
-
-## Requirements
-+ See the `requirements.txt` for the required python packages and run `pip install -r requirements.txt` to install them.
+## Prérequis
+Consultez le fichier requirements.txt pour la liste des bibliothèques Python nécessaires, puis installez-les avec la commande suivante :
+```shell
+pip install -r requirements.txt
   
 ## prétraitement des données
 Les données utilisées sont des fichiers .txt en anglais issus des débats du Parlement européen (corpus Europarl).
