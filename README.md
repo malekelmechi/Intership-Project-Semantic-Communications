@@ -31,3 +31,11 @@ Les modèles entraînés sont automatiquement enregistrés dans le dossier check
 ```shell
 python main.py
 ```
+## Evaluation du modèle DeepSC
+Lors de cette phase, le modèle est évalué à l’aide de deux métriques principales : le score BLEU et la similarité de phrases.
+
+```shell
+python bleu_score_evaluation.py
+python sentence_similarity_evaluation.py
+```
+
