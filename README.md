@@ -16,3 +16,14 @@ Le fichier check_data.py permet d’explorer les fichiers générés dans data/.
 ```shell
 python preprocess_text.py
 ```
+## Entraînement du modèle DeepSC
+Cette phase lance l’entraînement du modèle DeepSC (Deep Semantic Communication). Deux architectures principales ont été utilisées (voir les captures ci-dessous).
+![Architecture de l’encodeur](images/encoder_architecture.png)
+![Architecture du décodeur](images/decoder_architecture.png)
+
+L’entraînement a été réalisé avec deux types de canaux : AWGN (bruit additif gaussien) et Rayleigh (canal à fading).
+Les modèles entraînés sont automatiquement enregistrés dans le dossier checkpoints/.
+
+```shell
+python main.py
+```
