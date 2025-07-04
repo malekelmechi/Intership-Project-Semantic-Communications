@@ -20,7 +20,8 @@ python preprocess_text.py
 Cette phase lance l’entraînement du modèle DeepSC (Deep Semantic Communication).
 Deux architectures principales ont été utilisées (voir les captures ci-dessous).
 
-![Architecture de DeepSC (voir models/transceiver.py](images/deepscr_architecture.png)
+![Architecture de DeepSC (voir models/transceiver.py](images/deepsc_architecture.png)
+
 ![Les deux phases de l’entraînement ](images/les 2 phases.png)
 
 L’entraînement a été réalisé avec deux types de canaux : AWGN (bruit additif gaussien) et Rayleigh (canal à fading).
