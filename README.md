@@ -41,6 +41,7 @@ python sentence_similarity_evaluation.py
 ```
 ## Étude de l'impact des imperfections matérielles
 Lors de cette phase, on étudie  l'effet de deux imperfections matérielles : la quantification et l'amplificateur. 
+
 L'objectif est d'évaluer leur impact sur les performances du modèle, puis d'appliquer des corrections et d'analyser les résultats obtenus.
 
 
